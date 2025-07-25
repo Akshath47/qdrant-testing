@@ -1,0 +1,146 @@
+{
+  "personalInfo": {
+    "name": "full name",
+    "email": "email address",
+    "phone": "mobile/phone number",
+    "linkedIn": "LinkedIn profile URL",
+    "github": "GitHub profile URL",
+    "location": "city, state/country",
+    "summary": "professional summary if present"
+  },
+  "currentEmployer": {
+    "company": "current company name",
+    "role": "current job title",
+    "startDate": "start date",
+    "isPresent": true,
+    "location": "company location",
+    "description": "role description",
+    "industry": "company industry (e.g., Technology, Healthcare, Finance)",
+    "companySize": "startup/small/medium/large/enterprise"
+  },
+  "previousEmployers": [
+    {
+      "company": "company name",
+      "role": "job title",
+      "startDate": "start date",
+      "endDate": "end date",
+      "location": "company location",
+      "description": "role description",
+      "industry": "company industry",
+      "companySize": "startup/small/medium/large/enterprise"
+    }
+  ],
+  "projects": [
+    {
+      "name": "project name",
+      "employer": "company where project was done",
+      "role": "role in project",
+      "duration": "project duration",
+      "teamSize": "team size if mentioned",
+      "description": "project description",
+      "responsibilities": ["responsibility 1", "responsibility 2"],
+      "domain": "project domain (e.g., Banking, Healthcare, E-commerce)",
+      "industry": "industry context",
+      "subIndustry": "specific sub-industry if mentioned",
+      "achievements": ["achievement 1", "achievement 2"],
+      "projectTechnicalSkills": {
+        "programmingLanguages": ["language1", "language2"],
+        "frameworks": ["framework1", "framework2"],
+        "databases": ["database1", "database2"],
+        "tools": ["tool1", "tool2"],
+        "cloudPlatforms": ["cloud1", "cloud2"],
+        "methodologies": ["methodology1", "methodology2"]
+      }
+    }
+  ],
+  "skills": {
+    "technical": {
+      "programmingLanguages": [
+        {
+          "language": "language name (e.g., JavaScript, Python)",
+          "evidenceLevel": "Strong|Moderate|Weak",
+          "projectCount": 3,
+          "projectEvidence": [
+            "Led React frontend development for e-commerce platform",
+            "Built Node.js APIs handling 10K+ requests"
+          ],
+          "proficiencyIndicators": ["led", "built", "architected"],
+          "yearsOfExperience": "3+",
+          "lastUsed": "Current role|2024|2023|etc.",
+          "skillConfidenceScore": 85,
+          "businessImpact": "High|Medium|Low",
+          "usageContexts": ["Frontend Development", "API Development"],
+          "projectsUsed": ["Project Name 1", "Project Name 2"]
+        }
+      ],
+      "frameworks": ["framework1", "framework2"],
+      "databases": ["db1", "db2"],
+      "cloudPlatforms": ["cloud1", "cloud2"],
+      "tools": ["tool1", "tool2"],
+      "methodologies": ["methodology1", "methodology2"],
+      "other": ["other skill1", "other skill2"]
+    },
+    "soft": ["communication", "leadership"],
+    "domain": ["domain expertise1", "domain expertise2"]
+  },
+  "industryExperience": {
+    "primary": "primary industry with most experience",
+    "secondary": ["secondary industry 1", "secondary industry 2"],
+    "domains": ["Banking", "Healthcare", "E-commerce", "Fintech"],
+    "subIndustries": ["Investment Banking", "Digital Health", "B2B SaaS"],
+    "verticals": ["Enterprise Software", "Consumer Apps", "Infrastructure"]
+  },
+  "education": [
+    {
+      "degree": "degree name",
+      "field": "field of study",
+      "institution": "university/college",
+      "location": "location",
+      "graduationDate": "graduation date",
+      "gpa": "GPA if mentioned",
+      "achievements": ["achievement1", "achievement2"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "certification name",
+      "issuer": "issuing organization",
+      "issueDate": "issue date",
+      "expiryDate": "expiry date if mentioned",
+      "credentialId": "credential ID if mentioned",
+      "url": "verification URL if mentioned"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "achievement title",
+      "description": "achievement description",
+      "date": "date if mentioned",
+      "context": "work/academic/personal"
+    }
+  ],
+  "publications": [
+    {
+      "title": "publication title",
+      "type": "paper/article/blog",
+      "publisher": "publisher/conference",
+      "date": "publication date",
+      "url": "URL if mentioned"
+    }
+  ],
+  "languages": [
+    {
+      "language": "language name",
+      "proficiency": "proficiency level"
+    }
+  ],
+  "interests": ["interest1", "interest2"],
+  "references": [
+    {
+      "name": "reference name",
+      "title": "reference title",
+      "company": "reference company",
+      "contact": "contact info if provided"
+    }
+  ]
+}
